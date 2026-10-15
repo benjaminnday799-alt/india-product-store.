@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111827">
+  <title>NovaCart India | Everyday Finds</title>
+  <meta name="description" content="Discover useful gadgets, everyday essentials and smart finds at NovaCart India.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #18212f;
+      background: #f7f8fa;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 22px 6%;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 25px; font-weight: 800; }
+    .logo span { color: #67e8c0; }
+    .nav a { color: white; text-decoration: none; }
+    .hero {
+      padding: 65px 6%;
+      background: linear-gradient(120deg, #d1fae5, #eff6ff);
+    }
+    .hero h1 {
+      max-width: 650px;
+      font-size: clamp(36px, 6vw, 60px);
+      line-height: 1.05;
+      margin: 0 0 18px;
+    }
+    .hero p {
+      max-width: 520px;
+      line-height: 1.7;
+      color: #465366;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 13px 20px;
+      border-radius: 8px;
+      background: #111827;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    main { padding: 35px 6% 60px; }
+    .section-heading { margin-bottom: 22px; }
+    .section-heading h2 { margin-bottom: 8px; }
+    .section-heading p { color: #687386; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .product-art {
+      min-height: 180px;
+      display: grid;
+      place-items: center;
+      background: #edf2f7;
+      font-size: 70px;
+    }
+    .card-content { padding: 18px; }
+    .card h3 { margin: 0 0 8px; }
+    .card p { color: #687386; line-height: 1.5; font-size: 14px; }
+    .price { font-size: 20px; font-weight: 800; }
+    .tag {
+      display: inline-block;
+      background: #d1fae5;
+      color: #065f46;
+      padding: 5px 9px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .note {
+      margin-top: 30px;
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    footer {
+      padding: 25px 6%;
+      background: #111827;
+      color: #d1d5db;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+    footer a { color: #a7f3d0; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">NovaCart<span>.</span></div>
+      <a href="#products">Explore products ↓</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <span class="tag">WELCOME TO NOVACART</span>
+    <h1>Discover smarter everyday finds.</h1>
+    <p>
+      Explore useful gadgets, everyday essentials and clever
+      finds designed to make daily life a little easier.
+    </p>
+    <a class="button" href="#products">Explore the collection</a>
+  </section>
+
+  <main>
+    <section id="products">
+      <div class="section-heading">
+        <h2>Explore our collection</h2>
+        <p>These are sample product concepts. Real products and prices will be added after supplier checks.</p>
+      </div>
+
+      <div class="products">
+        <article class="card">
+          <div class="product-art" aria-hidden="true">🎧</div>
+          <div class="card-content">
+            <span class="tag">SAMPLE</span>
+            <h3>Everyday Audio</h3>
+            <p>Discover audio accessories for work, study and leisure.</p>
+            <div class="price">Price coming soon</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="product-art" aria-hidden="true">💡</div>
+          <div class="card-content">
+            <span class="tag">SAMPLE</span>
+            <h3>Smart Lighting</h3>
+            <p>Explore practical lighting ideas for your desk and room.</p>
+            <div class="price">Price coming soon</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="product-art" aria-hidden="true">🎒</div>
+          <div class="card-content">
+            <span class="tag">SAMPLE</span>
+            <h3>Daily Essentials</h3>
+            <p>Browse useful accessories for college and everyday life.</p>
+            <div class="price">Price coming soon</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="note">
+      <strong>Launching soon</strong>
+      <p>
+        We're preparing our first collection. Product availability,
+        prices, delivery details and ordering information will be
+        published once confirmed.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>NovaCart India</strong><br>
+    An independent online store project.<br>
+    Contact and ordering details will be added before launch.
+  </footer>
+</body>
+</html>
